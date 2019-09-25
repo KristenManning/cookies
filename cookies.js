@@ -4,6 +4,6 @@ $(document).ready(function() {
   $(document).on("click", ".cookie-pic", function(e) {
       counter += 1
       var display_count = "Count = " + counter
-      alert(display_count)
+      $("#count").text(counter)
   });
 });
