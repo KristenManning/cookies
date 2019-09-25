@@ -1,7 +1,8 @@
+h2{
+	color: blue;
+}
+
 .cookie-pic{
-/*	border: solid;
-	border-color: black;
-	border-width: 5px;*/
 	width: 250px;
 	height: auto;
 }
@@ -9,3 +10,4 @@
 .row{
 	margin-top: 70px;
 }
+
