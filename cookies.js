@@ -3,6 +3,7 @@ $(document).ready(function() {
   // On cookie click, increment counter 
   $(document).on("click", ".cookie-pic", function(e) {
       counter += 1
-      alert("hello world")
+      var display_count = "Count = " + counter
+      alert(display_count)
   });
 });
